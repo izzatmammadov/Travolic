@@ -63,6 +63,269 @@
 
 /* header end */
 
+.top_section_service {
+  height: 740px;
+  background: rgba(16, 144, 203, 0.1);
+  text-align: center;
+}
+
+.top_section_service img {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 78px;
+}
+
+.top_section_service h2 {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 22px 0px;
+}
+
+.top_section_service h2::after {
+  content: " Services";
+  color: #1090cb;
+}
+
+.top_section_service p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #696969;
+  width: 25%;
+  margin: auto;
+}
+
+/* absolute section */
+
+.absolute_service_container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin: 0 auto;
+  margin-top: -250px;
+  padding: 70px 60px;
+  background-color: #fff;
+  border: 2px solid rgba(16, 144, 203, 0.1);
+  position: relative;
+}
+
+.cactus_service_img {
+  position: absolute;
+  right: 90px;
+  top: -45px;
+  width: 7%;
+}
+
+.absolute_inner_service {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  gap: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.absolute_inner_service:hover {
+  box-shadow: 2px 6px 20px 0px #5c5c5c;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.absolute_inner_service img {
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.codingicon_service {
+  background: #f1e8ff;
+}
+
+.appicon_service {
+  background: #fff2f2;
+}
+
+.rocketicon_service {
+  background: #e2f3ff;
+}
+
+.cloudicon_service {
+  background: #ffe7fb;
+}
+
+.absolute_inner_service p {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+}
+
+.absolute_inner_service span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #797979;
+}
+
+/* section 2 */
+
+.center_section_service {
+  display: flex;
+  margin-top: 110px;
+}
+
+.center_service_left {
+  width: 50%;
+  padding-left: 120px;
+}
+
+.center_service_left h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  color: #1090cb;
+}
+
+.center_service_left h3:after {
+  content: " is simply dummy text of the printing.";
+  color: #252525;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.center_service_left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #545454;
+  margin: 54px 0px;
+}
+
+.center_service_left button {
+  background: #ffffff;
+  border: 1px solid #1090cb;
+  border-radius: 10px;
+  color: #1090cb;
+  padding: 10px 52px;
+}
+
+.center_service_left button:hover {
+  transition: all 2s;
+  box-shadow: inset 300px 0px 0px 0px #1090cb;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* section 3 */
+
+.data_container {
+  background-color: #1090cb;
+  padding: 160px 130px;
+  margin: 150px 0px;
+  position: relative;
+}
+
+.bell_service_data {
+  position: absolute;
+  right: 100px;
+  top: -80px;
+}
+
+.cactus_service_data {
+  position: absolute;
+  left: 300px;
+  bottom: -40px;
+  width: 7%;
+}
+
+.rope1_service_data {
+  position: absolute;
+  top: -45px;
+  left: -50px;
+  width: 20%;
+}
+
+.rope2_service_data {
+  position: absolute;
+  right: 100px;
+  top: -85px;
+  width: 30%;
+}
+
+.data_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data_inner div {
+  color: #fff;
+  text-align: center;
+  flex-direction: column;
+}
+
+.data_inner p {
+  font-size: 65px;
+}
+
+.data_inner span {
+  font-size: 16px;
+}
+
+/* section 4 */
+
+.cards_container_service {
+  display: flex;
+  gap: 84px;
+  padding: 0px 120px;
+  margin-bottom: 150px;
+}
+
+.cards_service {
+  flex-direction: column;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.cards_service h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 40px 0;
+}
+
+.cards_service h5 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 40px 0;
+}
+
+.cards_service h6 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 40px 0;
+}
+
+.cards_service p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #424242;
+}
+
 /* footer start */
 
 .footer-top {
