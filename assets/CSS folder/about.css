@@ -71,7 +71,7 @@
   position: relative;
 }
 
-.greenvector_img {
+.greenvector_img_about {
   position: absolute;
   transform: rotate(180deg);
   right: 0;
@@ -130,7 +130,7 @@
   z-index: -1;
 }
 
-.bluevector_img {
+.bluevector_img_about {
   position: absolute;
   transform: rotate(180deg);
   left: 0;
