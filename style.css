@@ -190,7 +190,8 @@
 }
 
 .cards_inner_div:hover {
-  box-shadow: 2px 6px 20px 0px #5c5c5c5c;
+  box-shadow: 2px 6px 20px 0px #5c5c5c;
+  transition: all .5s;
 }
 
 .card1 img {
