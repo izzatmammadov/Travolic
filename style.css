@@ -172,7 +172,7 @@
 /* cards section */
 
 .cards_section {
-  padding: 44px 122px;
+  padding: 44px 50px;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -182,6 +182,7 @@
 
 .cards_inner_div {
   display: flex;
+  width: calc(100%/4);
   gap: 16px;
   align-items: center;
   cursor: pointer;
